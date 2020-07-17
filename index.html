@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- meta 是元数据，即描述数据的数据 -->
+        <meta charset="utf-8">
+        <title>Xrk's test page</title>
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <!--将css文件连接至html文档-->
+
+        <!-- 中文字体文件较大，不适合直接用于Web Font -->
+        <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <!--在当前网站下载Open sans字体，从而使自定义css中可以对HTML元素运用该字体-->
+
+        <script src="scripts/main.js" async></script>
+        <!--引入JavaScript以作用于HTML文档-->
+
+        <link rel= "shortcut icon" href ="images/IMG_0210.ico" type="image/x-icon" />
+    </head>
+    
+    <body>
+        <p id="my-id">我的猫咪脾气<strong>爆</strong>:)  (点击触发js事件）</p>
+        <!--p用来指定段落，一般用来指定普通文本内容-->
+        
+        <h1>主标题</h1>
+        <h2>副标题</h2> 
+        <!--h1到h6共有6级标题，一般只用到3、4级-->
+
+        <img  src="images/box-model.png" alt="无法加载图像时显示的内容">
+        <!--同级目录时 box-model.png ；次级目录时写明包含图片的目录名称 images/box-model.png ; 上一次目录时加两点 ../box-model.png-->
+        <!-- 并不是所有元素都有开始标签、内容和结束标记.一些元素只有一个标签，通常用来在此位置插入/嵌入一些内容.如元素img就是用来在元素img位置插入一张指定的图片 -->
+        <!-- 不包含任何内容的元素被称为空元素，如img（没有结束标签，且没有内容） -->
+
+        <p>这是一个段落</p>
+        <p>Mozilla 是一个全球社区，这里聚集着来自五湖四海的</p>
+        <!-- p是一个块级元素，所以第二行代码新起一行展示，并且两行间有一些间隔（因为默认的浏览器有着一些默认的展示<p>元素的CSSstyling -->
+    
+        <ul> 
+             <li>无序列表</li>
+             <li>思考者</li>
+             <li>建造者</li>
+        </ul>
+        <!--无序列表-->
+
+        <ol>
+            <li>有序列表</li>
+            <li>金星</li>
+            <li>地球</li>
+        <!--有序列表-->
+        </ol>
+
+        <button>切换用户</button>
+
+        <p>我们致力于……</p>
+
+        <a href="https://www.jd.com/?cu=true&utm_source=c.duomai.com&utm_medium=tuiguang&utm_campaign=t_16282_59628426&utm_term=b23dbb0bd301489cb9eec19cf94437d8" class="my-class" title="淘宝官网" target="_blank">跳转至淘宝官网</a>
+        <!--a 是 "anchor" （锚）的缩写-->
+        <!-- target="_blank" 属性的效果是在新标签页中显示链接 -->
+
+        <em id="second-id">块级元素换行</em>
+        <!-- 内联元素不会导致文本换行，如超链接元素a或强调元素em/strong -->
+        <!-- 但此处我已经给内联元素（行内元素）以块级元素，所以会换行 -->
+        <!-- em是斜体强调 -->
+
+        <em id="em-id"> 内联元素不换行</em> 
+        <!-- 因为上面被改成了块级元素，所以无法直接加在上行文本后面 -->
+
+        <input type="Text" disabled>
+        <input type="Text">
+
+        <ol>
+            <li><input type="Text"></li>
+            <li><input type-"Text"></li>
+        </ol>
+    </body>
+</html>
+
+<!-- ctrl+? -->
